@@ -16,7 +16,7 @@ cont_RD = function(team, year) {
   }
   print(v)
   
-  games = c(1:length(v)) #for the occasional Game 163
+  games = c(1:length(v)) #if the amount of games played were greater than or less than 162
   ggplot(subject, aes(games, v)) +
     ylim (-300, 300) +
     xlab("Games") +
