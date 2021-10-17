@@ -1,5 +1,7 @@
 install.packages("retrosheet")
 require(retrosheet)
+library(ggplot2)
+library(tidyverse)
 
 cont_RD = function(team, year) {
   d4t4 <- getRetrosheet("game", year)
@@ -14,11 +16,16 @@ cont_RD = function(team, year) {
     v = c(v, run_diff)
     initial_rd <- run_diff
   }
-
+  print(v)
+  
   games = c(1:length(v)) #for the occasional Game 163
-  plot(games, v, xlab="Games", ylab="Run Differential", cex = 0.45, pch = 16)
+  ggplot(subject, aes(games, v)) +
+    ylim (-300, 300) +
+    xlab("Games") +
+    ylab("Run Differential") +
+    geom_line()
 }
 
-cont_RD()
+cont_RD("LAN", 2019)
 
 
