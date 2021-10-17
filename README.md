@@ -1,4 +1,4 @@
-# Chart the Run Differential
+# Chart the Run Differential 1.0
 
 In my entry into the world of sabermetrics and R, I realized that there is no way to see run differential charted over a single season. So I thought it would be fun to make a cool little application that can calculate the run differential of a team over a year, with a chart showing the overall trend. 
 
