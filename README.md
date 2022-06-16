@@ -2,7 +2,9 @@
 
 In my entry into the world of sabermetrics and R, I realized that there is no way to see run differential charted over a single season. So I thought it would be fun to make a cool little application that can calculate the run differential of a team over a year, with a chart showing the overall trend. 
 
-This application was created in less than a couple of hours in August, but is only being uploaded as I expanded the application on and off for  the next month and a half. The second part to this is also uploaded to my Github, but I'll leave the details for that over in that repo.
+This application was created in less than a couple of hours in August, but is only being uploaded as I expanded the application on and off for  the next month and a half. The second part to this is also uploaded to my Github in a separate repository.
+
+My article explaining this application can be found [here](https://salce.substack.com/p/chart-the-run-differential-part-1?r=pdyv9&s=w&utm_campaign=post&utm_medium=web).
 
 Example: 2019 Los Angeles Dodgers Run Differential
 
